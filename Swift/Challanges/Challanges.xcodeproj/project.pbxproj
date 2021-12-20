@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9802D6272770BA21001417F2 /* WordCapitalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802D6262770BA21001417F2 /* WordCapitalization.swift */; };
+		9802D6292770BC4C001417F2 /* BoyOrGirl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9802D6282770BC4C001417F2 /* BoyOrGirl.swift */; };
 		98BCFC302770268C005B64DE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BCFC2F2770268C005B64DE /* main.swift */; };
 		98BCFC37277026C4005B64DE /* Watermelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BCFC36277026C4005B64DE /* Watermelon.swift */; };
 		98BCFC39277027D2005B64DE /* WayTooLongWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BCFC38277027D2005B64DE /* WayTooLongWords.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9802D6262770BA21001417F2 /* WordCapitalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCapitalization.swift; sourceTree = "<group>"; };
+		9802D6282770BC4C001417F2 /* BoyOrGirl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyOrGirl.swift; sourceTree = "<group>"; };
 		98BCFC2C2770268C005B64DE /* Challanges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challanges; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BCFC2F2770268C005B64DE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98BCFC36277026C4005B64DE /* Watermelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watermelon.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				98BCFC2F2770268C005B64DE /* main.swift */,
 				98BCFC36277026C4005B64DE /* Watermelon.swift */,
 				98BCFC38277027D2005B64DE /* WayTooLongWords.swift */,
+				9802D6262770BA21001417F2 /* WordCapitalization.swift */,
+				9802D6282770BC4C001417F2 /* BoyOrGirl.swift */,
 			);
 			path = Challanges;
 			sourceTree = "<group>";
@@ -126,9 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9802D6292770BC4C001417F2 /* BoyOrGirl.swift in Sources */,
 				98BCFC39277027D2005B64DE /* WayTooLongWords.swift in Sources */,
 				98BCFC302770268C005B64DE /* main.swift in Sources */,
 				98BCFC37277026C4005B64DE /* Watermelon.swift in Sources */,
+				9802D6272770BA21001417F2 /* WordCapitalization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
