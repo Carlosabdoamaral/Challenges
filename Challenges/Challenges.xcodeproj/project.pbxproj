@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98425782277E1F2C005BB4B1 /* DuplicateLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98425781277E1F2C005BB4B1 /* DuplicateLetters.swift */; };
 		986C921F277A66F4002928FF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986C921E277A66F4002928FF /* main.swift */; };
+		987A7F8C277CC76D0086DE37 /* CountCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A7F8B277CC76D0086DE37 /* CountCharacters.swift */; };
+		987A7F8E277CC84E0086DE37 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A7F8D277CC84E0086DE37 /* FizzBuzz.swift */; };
+		987A7F90277CC95A0086DE37 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A7F8F277CC95A0086DE37 /* RandomNumber.swift */; };
+		987A7F92277CCAF20086DE37 /* pow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A7F91277CCAF20086DE37 /* pow.swift */; };
+		987A7F94277CCDBF0086DE37 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A7F93277CCDBF0086DE37 /* Swap.swift */; };
+		98DA7F62277BBDA8004AFBC4 /* WordIsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DA7F61277BBDA8004AFBC4 /* WordIsPalindrome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		98425781277E1F2C005BB4B1 /* DuplicateLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateLetters.swift; sourceTree = "<group>"; };
 		986C921B277A66F4002928FF /* Challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		986C921E277A66F4002928FF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		987A7F8B277CC76D0086DE37 /* CountCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountCharacters.swift; sourceTree = "<group>"; };
+		987A7F8D277CC84E0086DE37 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		987A7F8F277CC95A0086DE37 /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+		987A7F91277CCAF20086DE37 /* pow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pow.swift; sourceTree = "<group>"; };
+		987A7F93277CCDBF0086DE37 /* Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
+		98DA7F61277BBDA8004AFBC4 /* WordIsPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordIsPalindrome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				986C921E277A66F4002928FF /* main.swift */,
+				98DA7F61277BBDA8004AFBC4 /* WordIsPalindrome.swift */,
+				987A7F8B277CC76D0086DE37 /* CountCharacters.swift */,
+				987A7F8D277CC84E0086DE37 /* FizzBuzz.swift */,
+				987A7F8F277CC95A0086DE37 /* RandomNumber.swift */,
+				987A7F91277CCAF20086DE37 /* pow.swift */,
+				987A7F93277CCDBF0086DE37 /* Swap.swift */,
+				98425781277E1F2C005BB4B1 /* DuplicateLetters.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DA7F62277BBDA8004AFBC4 /* WordIsPalindrome.swift in Sources */,
+				987A7F94277CCDBF0086DE37 /* Swap.swift in Sources */,
 				986C921F277A66F4002928FF /* main.swift in Sources */,
+				987A7F92277CCAF20086DE37 /* pow.swift in Sources */,
+				987A7F90277CC95A0086DE37 /* RandomNumber.swift in Sources */,
+				987A7F8C277CC76D0086DE37 /* CountCharacters.swift in Sources */,
+				987A7F8E277CC84E0086DE37 /* FizzBuzz.swift in Sources */,
+				98425782277E1F2C005BB4B1 /* DuplicateLetters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
